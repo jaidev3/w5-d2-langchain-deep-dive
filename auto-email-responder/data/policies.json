@@ -1,0 +1,32 @@
+{
+  "policies": [
+    {
+      "title": "Vacation Policy",
+      "content": "Employees are entitled to 15 days of paid vacation per year. Requests must be submitted at least 2 weeks in advance."
+    },
+    {
+      "title": "Remote Work Policy",
+      "content": "Employees may work remotely up to 3 days per week, subject to manager approval. Must maintain productivity and attend all meetings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I request time off?",
+      "answer": "Submit a request through the HR portal with details of dates and reason."
+    },
+    {
+      "question": "What is the company holiday schedule?",
+      "answer": "The company observes all major national holidays. Check the internal calendar for details."
+    }
+  ],
+  "templates": [
+    {
+      "name": "vacation_response",
+      "template": "Dear {name},\n\nThank you for your inquiry about vacation. According to our policy: {policy}\n\nIf you have more questions, feel free to ask.\n\nBest,\nAuto Responder"
+    },
+    {
+      "name": "general_faq",
+      "template": "Dear {name},\n\nRegarding your question: {question}\nAnswer: {answer}\n\nBest,\nAuto Responder"
+    }
+  ]
+} 

@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Sensitive files
+credentials.json
+token.json
+
+# Database
+company_data.db
+
+# FAISS index files
+faiss_index.index
+faiss_ids.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDE/editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Other
+*.egg-info/
+dist/
+build/
+*.egg
